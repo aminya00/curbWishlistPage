@@ -66,23 +66,9 @@ window.addEventListener("load",()=>{
 })
 /*/////////////// end navbar-options Login ///////////////*/
 
-let wishListResultDB=null
 let basketResultDB=null
 
-let myWishListDB=indexedDB.open("wishListDB",1)
-      
-myWishListDB.addEventListener("success",(e)=>{
-  wishListResultDB=e.target.result
 
-})
-myWishListDB.addEventListener("upgradeneeded",(e)=>{
-  wishListResultDB=e.target.result
-  if (!wishListResultDB.objectStoreNames.contains("wishList")){
-    wishListResultDB.createObjectStore("wishList",{
-      keyPath:"name"
-    })
-  }
-})
 
 let myBasketDB=indexedDB.open("basketDB",1)
       

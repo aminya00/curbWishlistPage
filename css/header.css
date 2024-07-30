@@ -1,3 +1,7 @@
+@font-face{
+  font-family: "Samim";
+  src: url("../font/Samim.ttf") format("truetype");
+}
 :root {
   --main-black: rgb(24, 24, 24);
   --main-white: #fff;
@@ -6,10 +10,7 @@
   --desc-font-size: 18px;
   --btn-font-size: 14px;
 }
-@font-face{
-  font-family: "samim";
-  src: url("../font/Samim.ttf") format("truetype");
-}
+
 * {
   margin: 0;
   padding: 0;
