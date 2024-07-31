@@ -1,6 +1,6 @@
 @font-face{
   font-family: "Samim";
-  src: url("../font/Samim.ttf") format("truetype");
+  src: url("../fonts/Samim.ttf") format("truetype");
 }
 :root {
   --main-black: rgb(24, 24, 24);
